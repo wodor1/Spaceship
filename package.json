@@ -1,0 +1,40 @@
+{
+  "name": "starterkit_1",
+  "version": "1.0.0",
+  "description": "Egy alap html oldalhoz starterkit.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "stylelint": "stylelint \"**/*.css\"",
+    "eslint": "eslint \"**/*.js\"",
+    "htmlhint": "htmlhint \"**/*.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wsuf-proginf-2022/starterkit_1.git"
+  },
+  "keywords": [
+    "starterkit"
+  ],
+  "author": "Zsolt Lengyel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wsuf-proginf-2022/starterkit_1/issues"
+  },
+  "homepage": "https://github.com/wsuf-proginf-2022/starterkit_1#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-auto-import": "^0.1.1",
+    "eslint-plugin-import": "^2.26.0",
+    "htmlhint": "^1.1.4",
+    "live-server": "^1.1.0",
+    "stylelint": "^14.15.0",
+    "stylelint-config-sass-guidelines": "^9.0.1",
+    "stylelint-config-standard": "^29.0.0"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  }
+}
